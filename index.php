@@ -135,8 +135,7 @@ $smarty->setPluginsDir(array('./views/plugins','./class/smarty/plugins','./class
 
 
 $smarty->assign('title', 'Pdll - Strony internetowe');
-//$smarty->assign('publicDomain', 'http://localhost/pdll/');
-$smarty->assign('publicDomain', 'https://vigorous-varahamihira-3d4d87.netlify.app/');
+$smarty->assign('publicDomain', 'http://localhost/pdll/');
 $smarty->assign('projects', $projects);
 $smarty->assign('projectsDesigns', $projectsDesigns);
 $smarty->assign('questions', $questions);
